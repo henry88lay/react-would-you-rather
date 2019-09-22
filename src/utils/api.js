@@ -6,18 +6,18 @@ import {
 } from './_DATA';
 
 export function getInitialData() {
-  return Promise.all(
-    [_getUsers(), _getQuestions()].then(([users, questions]) => ({
+  return Promise.all([_getUsers(), _getQuestions()]).then(
+    ([users, questions]) => ({
       users,
       questions
-    }))
+    })
   );
 }
 
-export function saveQuestions(info) {
-  return _saveQuestion(info);
+export function saveQuestion(question) {
+  return _saveQuestion(question);
 }
 
-export function saveQuestionsAnswer(info) {
-  return _saveQuestionAnswer(info);
+export function saveQuestionAnswer(authUser, qid, answer) {
+  return _saveQuestionAnswer({authUser, qid, answer});
 }

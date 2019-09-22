@@ -2,7 +2,8 @@ let users = {
   kazuya: {
     id: 'kazuya',
     name: 'Kazuya',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/male/42.png',
     answers: {
       '8xf0y6ziyjabvozdd253nd': 'optionOne',
       '6ni6ok3ym7mf1p33lnez': 'optionTwo',
@@ -14,7 +15,8 @@ let users = {
   khabib: {
     id: 'khabib',
     name: 'Khabib',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/10.png',
     answers: {
       vthrdm985a262al8qx3do: 'optionOne',
       xj352vofupe1dqz9emx13r: 'optionTwo'
@@ -24,7 +26,8 @@ let users = {
   claudio: {
     id: 'claudio',
     name: 'Claudio',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/male/45.png',
     answers: {
       xj352vofupe1dqz9emx13r: 'optionOne',
       vthrdm985a262al8qx3do: 'optionTwo',
@@ -35,35 +38,40 @@ let users = {
   jack: {
     id: 'jack',
     name: 'Jack',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/male/8.png',
     answers: {},
     questions: []
   },
   ling: {
     id: 'ling',
     name: 'Ling',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/10.png',
     answers: {},
     questions: []
   },
   yvonne: {
     id: 'yvonne',
     name: 'Yvonne',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/1.png',
     answers: {},
     questions: []
   },
   belinda: {
     id: 'belinda',
     name: 'Belinda',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/5.png',
     answers: {},
     questions: []
   },
   james: {
     id: 'james',
     name: 'James',
-    avatarURL: '',
+    avatarURL:
+      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/10.png',
     answers: {},
     questions: []
   }
